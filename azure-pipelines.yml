@@ -15,7 +15,7 @@ stages:
   - job: Build
     displayName: Build and Push Docker Image
     pool:
-      name: azureagent
+      name: azureagents
 
     steps:
     - checkout: self
